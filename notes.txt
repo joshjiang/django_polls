@@ -2,9 +2,14 @@
     - views needs from django.http import Httpresponse
 2. Create URL paths
     - create the urls.py file within the APP directory
-    - every path() needs 3 things
-        - the url path e.g. ''
-        - the view which is pulled for that path e.g. views.index or views.game
-        - the name e.g. name = "index"
-        
+    - The path() function is passed four arguments, two required: route and view, and two optional: 
+      kwargs, and name. At this point, it’s worth reviewing what these arguments are for.
+
 3. Link app URL paths to main URL paths
+
+4. Create Models
+    - Change your models (in models.py).
+    - Run python manage.py makemigrations to create migrations for those changes
+    - Link the app in Settings.py
+    - Run python manage.py migrate to apply those changes to the database.
+
