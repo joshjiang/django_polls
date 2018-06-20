@@ -13,3 +13,10 @@
     - Link the app in Settings.py
     - Run python manage.py migrate to apply those changes to the database.
 
+5. Django ORM
+    - Question.objects.all() pulls all objects
+    - q = Question(question_text = "asdfasdf", pub_date = timezone.now())
+    - q.save()
+    - q.id, q.question_text, etc.
+
+    
