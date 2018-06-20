@@ -1,0 +1,10 @@
+1. Create views
+    - views needs from django.http import Httpresponse
+2. Create URL paths
+    - create the urls.py file within the APP directory
+    - every path() needs 3 things
+        - the url path e.g. ''
+        - the view which is pulled for that path e.g. views.index or views.game
+        - the name e.g. name = "index"
+        
+3. Link app URL paths to main URL paths
