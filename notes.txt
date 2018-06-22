@@ -1,5 +1,6 @@
 1. Create views
     - views needs from django.http import Httpresponse
+    - all views are functions that take a response and then return another respone
 2. Create URL paths
     - create the urls.py file within the APP directory
     - The path() function is passed four arguments, two required: route and view, and two optional: 
